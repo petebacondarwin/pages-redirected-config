@@ -4,7 +4,7 @@ import { copyFileSync, mkdirSync, rmSync, writeFileSync } from "node:fs";
 rmSync("build", { recursive: true, force: true });
 mkdirSync("build");
 const config = {
-  name: "redirected-config-worker",
+  name: "pages-redirected-config",
   compatibility_date: "2024-12-01",
   pages_build_output_dir: "./public",
   vars: {
