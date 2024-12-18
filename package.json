@@ -7,7 +7,6 @@
   "main": "src/index.js",
   "scripts": {
     "build": "node -r esbuild-register tools/build.ts",
-    "postinstall": "pnpm build",
     "check:type": "tsc",
     "dev": "pnpm run build && wrangler pages dev"
   },
