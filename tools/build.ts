@@ -7,7 +7,11 @@ const config = {
   name: "redirected-config-worker",
   compatibility_date: "2024-12-01",
   pages_build_output_dir: "./public",
-  vars: { generated: "HELLO" },
+  vars: {
+    generated: "HELLO",
+    PAGES_BUILD_IMAGE:
+      "us-west1-docker.pkg.dev/cloudflarepages/pages-build-image/ew/pages-infra/pages-build-image-v2/carmen/bump-wrangler-version:1838-03599beab235@sha256:7884e702b0692f9471106bbd5cf37326b39e3f45b8bda9d4fdf17cb23e26e524",
+  },
 };
 writeFileSync("build/wrangler.json", JSON.stringify(config, undefined, 2));
 
