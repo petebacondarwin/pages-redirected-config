@@ -7,7 +7,7 @@ const config = {
   name: "redirected-config-worker",
   compatibility_date: "2024-12-01",
   pages_build_output_dir: "./public",
-  vars: { generated: true },
+  vars: { generated: "HELLO" },
 };
 writeFileSync("build/wrangler.json", JSON.stringify(config, undefined, 2));
 
