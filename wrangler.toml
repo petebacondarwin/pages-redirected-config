@@ -4,3 +4,4 @@ pages_build_output_dir = "build/public"
 
 [vars]
 generated = "USER"
+ROOT_DIR = "/"
