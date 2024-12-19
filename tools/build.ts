@@ -10,7 +10,7 @@ const config = {
   vars: {
     generated: "HELLO AGAIN 3",
     PAGES_BUILD_IMAGE:
-      "us-west1-docker.pkg.dev/cloudflarepages/pages-build-image/ew/pages-infra/pages-build-image-v2/carmen/bump-wrangler-version:1842-73eca9535446-amd64@sha256:2c40296bfcc02114cefda553a5763651ecd0090c68f453f1f76287d60275d0fe",
+      "us-west1-docker.pkg.dev/cloudflarepages/pages-build-image/ew/pages-infra/pages-build-image-v2/carmen/bump-wrangler-version:1843-bfed6b7-amd64@sha256:8f4ef4c0b3c3377de3eede9fd1e68f45ca9d8589828accf4decf9c782bfa9162",
   },
 };
 writeFileSync("build/wrangler.json", JSON.stringify(config, undefined, 2));
